@@ -5,57 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eve</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./sourse/image/logo.png"><!-- 32×32 -->
 </head>
 <body style="background-color: #f0e7e7;">
-    <div class = "header">
-        <span id = "Header-LogoButton" class="Header-LogoButton">EVE</span>
-        <span id = "Header-MainButton" class="Header-Button Header-MainButton">Главная</span>
-        <span id = "Header-DescriptionButton" class="Header-Button Header-DescriptionButton">Описание</span>
-        <span id = "Header-InfoButton" class="Header-Button Header-DescriptionButton">Услуги</span>
-        <span id = "Header-ContactButton" class="Header-Button Header-DescriptionButton">Контакты</span>
-        <span id = "Header-LoginButton" class="Header-Button Header-LoginButton">Войти</span>
-        <span id = "Header-SignUp" class="Header-Button Header-LoginButton">Регистрация</span>
+    <div id = "start-div"></div>
+    <div class = "header" style="background-color: #f0e7e7;margin:-10px; padding-bottom:10px;height: 70px;">
+        <div class = "header">
+            <a href="#start-div" class="Header-LogoButton"><img src="./sourse/image/logo.png" style="margin-top: 10px;" width="150" height="50"></a>
+            <a href="#start-div" class="Header-Button Header-MainButton"><span id = "Header-MainButton">Главная</span></a>
+            <a href="#link-description" class="Header-Button Header-DescriptionButton"><span id = "Header-DescriptionButton">Описание</span></a>
+            <a href="#link-amenities" class="Header-Button Header-DescriptionButton"><span id = "Header-InfoButton" >Услуги</span></a>
+            <a href="#link-contact" class="Header-Button Header-DescriptionButton"><span id = "Header-ContactButton" >Контакты</span></a>
+            <a href="" class="Header-Button Header-LoginButton"><span id = "Header-LoginButton">Войти</span></a>
+            <a href="" class="Header-Button Header-LoginButton"><span id = "Header-SignUp" >Регистрация</span></a>
+    </div>
     </div>
     <!-- <hr class="hr"/> -->
     <div class="div-body">
-        <span id =  "body-logo" class="body-logo">EVE</span>
+        <img src="./sourse/image/logo.png" style="margin-top: 113px;" width="405" height="135">
         <span id="body-logo-text" class="body-logo-text">Сделайте управление <br><strong>любым бизнес-мероприятием</strong> <br>легким, yдобным и эффективным</span>
     </div>
     <div>
-        <h1 class="body-tytle-1">Для кого это?</h1>
+        <h1 class="body-tytle-1" style="margin-top: 50px;">Для кого это?</h1>
     </div>
     <div style="margin-top: 50px; margin-left: 98px;">
         <object type="text/html" data="frame1.html" class="for-who-div"></object>
         <object type="text/html" data="frame2.html" class="for-who-div"></object>
         <object type="text/html" data="frame3.html" class="for-who-div"></object>
     </div>
-    <div>
-        <span class="body-tytle-1" style="margin-left: 263px;">Тогда это то, что ты искал!</span>
+    <div id="link-description">
+        <span class="body-tytle-1" style="margin-left: 330px;">Тогда это то, что ты искал!</span>
     </div>
-    <div class="body-dscription">
-        Это описание!!!
+    <div  class="body-dscription">
+        <span class="item-li" style="margin-left: 0%;">EVE - Это сервис, который поможет вам сделать любое <em>мероприятие идеальным</em>, от начала до конца. 
+            <br>Мы предлагаем <em>уникальные</em> инструменты и решения для оптимизации этапов организации мероприятий. 
+            <br>Наша команда поможет вам сэкономить <em>время и ресурсы</em>, сделать ваше мероприятие более <em>эффективным</em> и <em>запоминающимся</em> для гостей. 
+            <br>Доверьте нам оптимизацию вашего следующего мероприятия и <em>получите идеальный результат!</em></span>
     </div>
     
-    <div>
-        <span class="body-tytle-1" style="margin-left: 263px;">Наши услуги:</span>
+    <div id = "link-amenities">
+        <span class="body-tytle-1" style="margin-left: 263px;">Возможности сервиса:</span>
     </div>
-    <div class="div-contact">
+    <div class="div-amenities">
         <ul>
-            <!-- Общая база данных
-Распределение участников по группам
-(Широкое)Взаимодействие кураторов с группой
-Создание расписания мероприятия 
-Сохранение в общем доступе для кураторов всех оперативных проблем
-Автоматическая навигация и формирование участников
-Рассылка оповещений от куратора участникам в личные сообщения(всем/группе и др.)
-Определение текущего положения участников 
-Динамическое изменение расписания в режиме реального времени
- -->        
-            <li class="item-li">Создание общей базы данных участников.</li>
-            <li class="item-li">Распределение участников по группам.</li>
-            <li class="item-li">2-й элемент</li>
+
+            </p><li class="item-li">Создание общей базы данных участников.</li>
+            </p><li class="item-li">Распределение участников по группам.</li>
+            </p><li class="item-li">Взаимодействие с базой данных, а именно:
+                <ul class="ul-2">
+                    <li>Добавление/изменение/yдаление пользователей из базы данных</li>
+                    <li>Автоматическое распределение участников на группы в соответствии с расписанием и вашими пожеланиями</li>
+                </ul>
+            </li>
+            </p><li class="item-li">Создание расписания мероприятия.</li>
+            </p><li class="item-li">Динамическое изменение расписания в режиме реального времени.</li>
+            </p><li class="item-li">Оповещение участников в личные сообщения через telegtam bot и sms.</li>
+            </p><li class="item-li">Возможность оповещений от куратора участникам в личные сообщения (всем/группе).</li>
+            </p><li class="item-li">Определение текущего положения участников.</li>
+            </p><li class="item-li">Структурирование запросов от участников к кураторам.</li>
+            </p><li class="item-li">Возможность создания заранее заготовленных ответов на вопросы.</li>
         </ul>
     </div>
+    <div id="link-contact"></div>
+    <div>
+        <span class="contact-header">Контакты</span>
+    </div>
+    <div style="display: flex; margin-top: 20px;">
+        <div class="div-contact">
+            <br><span class="text-contact">Менеджер по продвижению:</span>
+            <br><br><span class="text-contact-2">name: Старков Артем Александрович</span>
+            <br><span class="text-contact-2">email: artyom.starkov01@gamil.com</span>
+            <br><span class="text-contact-2">telegtam: @StarkovAR</span>
+        </div>
+        <div class="div-contact">
+            <span class="text-contact">Руководитель/Разработчик:</span>
+            <br><br><span class="text-contact-2">name: Кузьменко Сергей Юрьевич</span>
+            <br><span class="text-contact-2">email: ksr-sochi@mail.ru</span>
+            <br><span class="text-contact-2">telegtam: @Sergey_Kyzmich</span>
+        </div>
+        <div class="div-contact">
+            <br><span class="text-contact">Аналитик:</span>
+            <br><br><span class="text-contact-2">name: Виня </span>
+            <br><span class="text-contact-2">email: Churmantaevvr@gmail.com</span>
+            <br><span class="text-contact-2">telegtam: @Benja_a_a </span>
+        </div>
+
+    </div>
 </body>
-<!-- <script type="text/javascript" src="main.js"></script> -->
 </html>
