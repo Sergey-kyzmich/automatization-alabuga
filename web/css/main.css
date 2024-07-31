@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'headerfont';
+    src: url('../sourse/fonts/Salina-Trial-Regular.otf');}
+@font-face {
+    font-family: 'logButtonFont';
+    src: url('../sourse/fonts/Salina-Trial-Medium.otf');}
+
+@font-face {
+    font-family: 'body-text';
+    src: url('../sourse/fonts/Montserrat Ace.ttf');}
+    
+.main-div{
+    background-color: #cce0ed;
+
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-self:center;
+    background-color: #f0e7e7;
+    position: fixed;
+
+}
+.Header-LogoButton {
+    text-align: center;
+    font-family: "calibri";
+    font-size: 50px;
+    color: #39f;
+}
+.Header-Button {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 8px;
+    padding: 8px;
+    
+    font-family: "logButtonFont";
+    font-size: 26px;
+    
+    color: #2e2e2e;
+}
+.Header-MainButton{
+    margin-left: 450px;
+    margin-bottom: 15px;
+
+}
+.Header-DescriptionButton{
+    margin-left: 15px;
+}
+.Header-LoginButton{
+    height: 30px;
+    width: 120px;
+    font-family: 'logButtonFont';
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 38px;
+    padding: 8px;
+    text-align: center;
+    box-shadow: 0 0 3px 1px #f6cdcd;
+    background-color: #f6cdcd;
+    border-width: 1px;
+    border-radius: 23px;
+}
+
+
+.div-body{
+    display: flex;
+    top: 23px;
+    margin-left: 75px;
+    border: 1px;
+    width: 90%;
+}
+
+.body-logo{
+    font-family: "calibri";
+    font-size: 212px;
+    margin-left: 70px;
+    color: #39f;
+}
+.body-logo-text{
+    margin-left: 30px;
+    margin-top: 100px;
+    font-family: "body-text";
+    font-size: 45px;
+    color: #2e2e2e;
+}
+.body-tytle-1 {
+    font-family: "body-text";
+    font-size: 60px;
+    margin: auto;
+    margin-left: 488px;
+    color: #2e2e2e;
+}
+
+.for-who-div {
+    width: 450px;
+    height: 300px;
+}
+
+.body-dscription{
+    font-family: "body-text";
+    font-size: 23px;
+    margin-left: 113px;
+    /* width: 80%; */
+    color: #2e2e2e;
+}
+
+.ul-2{
+    list-style-type:disc;
+}
+.item-li{
+    font-family: "body-text";
+    font-size: 30px;
+    margin-left: 113px;
+    width: 80%;
+    color: #2e2e2e;
+
+}
+
+.contact-header {
+    font-family: "body-text";
+    font-size: 60px;
+    margin: auto;
+    margin-left: 550px;
+    color: #2e2e2e;
+    
+}
+
+
+.div-contact {
+    margin-left: 50px;
+    flex: 0.33;
+    height: 200px;
+}
+
+.text-contact{
+    
+    font-family: "body-text";
+    font-size: 20px;
+    margin: auto;
+    color: #2e2e2e;
+}
+
+.text-contact-2{
+    font-family: "body-text";
+    font-size: 16px;
+    margin: auto;
+    color: #2e2e2e;
+}
+
+@media screen {
+    
+}

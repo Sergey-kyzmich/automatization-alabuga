@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'body-text';
+    src: url('../sourse/fonts/Montserrat-Ace-Bold.otf');}
+
+
+.border_div{
+    float: left;
+    margin-top: 8px;
+    margin-left: 15px;
+    padding: 8px;
+    padding-top: 18px;
+    border: 0px solid #bdbdbd;
+    width: 375px;
+    height: 188px;
+    border-radius: 12px;
+    box-shadow: 0 0 8px 5px rgb(204, 63, 63);
+}
+
+.name {
+    font-family: 'mainfont';
+    font-size: 18px;
+    color: #262c40;
+}
+
+.text-if {
+    font-family: "body-text";
+    color: #2e2e2e;
+    font-size: 38px;
+    margin-left: 8px;
+}
+
+
+.text-ds {
+    font-family: "body-text";
+    color: #2e2e2e;
+    padding-top: 8px;
+    font-size: 18px;
+    margin-left: 8px;
+}
+.phone_div {
+    display: flex;
+}
+.mail_div {
+    display: flex;
+    padding-top: 8px;
+}
